@@ -61,9 +61,9 @@ Handle guest billing and process payments.
 Status: Upcoming<br/>
 Manage the guest check-in and check-out process.
 </details>
-
-<h4><b>🛠️ Advanced Requirements</b></h4>
 <br>
+
+<h1><b>🛠️ Advanced Requirements</b></h1>
 <details>
 <summary><b>🗄️ Database & Security</b></summary>
 Status: Upcoming <br/>
