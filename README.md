@@ -1,4 +1,4 @@
-🏨 Hotel Management System
+**#🏨 Hotel Management System**
 <br/>
 
 ⭐ Features
@@ -92,7 +92,8 @@ Manage the guest check-in and check-out process.
 
 </details>
 
-🛠️ Advanced Requirements
+**#🛠️ Advanced Requirements**
+<br>
 <details>
 <summary><b>🗄️ Database & Security</b></summary>
 
