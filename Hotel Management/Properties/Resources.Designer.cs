@@ -63,9 +63,9 @@ namespace Hotel_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap flat_hotel_facade_background_23_2148159873 {
+        internal static System.Drawing.Bitmap flat_hotel {
             get {
-                object obj = ResourceManager.GetObject("flat-hotel-facade-background_23-2148159873", resourceCulture);
+                object obj = ResourceManager.GetObject("flat-hotel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,16 +76,6 @@ namespace Hotel_Management.Properties {
         internal static System.Drawing.Bitmap Lock {
             get {
                 object obj = ResourceManager.GetObject("Lock", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Male_User {
-            get {
-                object obj = ResourceManager.GetObject("Male User", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
