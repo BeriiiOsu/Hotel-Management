@@ -89,6 +89,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\User.png" />
+    <None Include="Resources\Password.png" />
     <None Include="Resources\Male User1.png" />
     <None Include="Resources\Lock.png" />
     <None Include="Resources\Right Arrow.png" />
