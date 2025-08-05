@@ -44,7 +44,19 @@ namespace Hotel_Management
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void btnGoToLogin_Click(object sender, EventArgs e)
+        {
+            guna2Panel1.Visible = true;
+            guna2Panel2.Visible = false;
+        }
+
+        private void btnForgotPass_Click(object sender, EventArgs e)
+        {
+            guna2Panel1.Visible = false;
+            guna2Panel2.Visible = true;
         }
     }
 }
