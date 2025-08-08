@@ -4,7 +4,6 @@
 ## ⭐ Features
 <details>
 <summary><b>🚪 Secure Login</b></summary>
-Status: Cleaning Up UI <br/>
 Implement login functionality for at least two user roles from the database.
 </details>
 
@@ -81,8 +80,8 @@ Log Files: Save application logs to a text file for debugging and monitoring.
 
 <details>
   <summary><b>📦 Dependencies</b></summary>
-  - Guna.UI2.WinForms (version 2.0.4.7)
-  - .NET Framework (4.8)
+  - Guna.UI2.WinForms (version 2.0.4.7) <br/>
+  - .NET Framework (4.8) <br/>
   - SQL Server (Express/Developer)
 </details>
 
