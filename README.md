@@ -1,10 +1,10 @@
 <h1><b>🏨 Hotel Management System</b></h1>
 <br/>
 
-⭐ Features
+## ⭐ Features
 <details>
 <summary><b>🚪 Secure Login</b></summary>
-Status: Ongoing <br/>
+Status: Cleaning Up UI <br/>
 Implement login functionality for at least two user roles from the database.
 </details>
 
@@ -67,10 +67,10 @@ Manage the guest check-in and check-out process.
 <details>
 <summary><b>🗄️ Database & Security</b></summary>
 Status: Upcoming <br/>
-Stored Procedures: Implement database stored procedures. <br/>
-Database Views: Create optimized database views. <br/>
+Stored Procedures: Implement database stored procedures. (partially implemented) <br/>
+Database Views: Create optimized database views. (partially implemented) <br/>
 Transactions: Ensure data integrity with database transactions and rollbacks. <br/>
-Configuration: Store database connection strings securely in a configuration file. (Done) <br/>
+Configuration: Store database connection strings securely in a configuration file. — Status: Done <br/>
 </details>
 
 <details>
@@ -82,5 +82,67 @@ Log Files: Save application logs to a text file for debugging and monitoring.
 <details>
   <summary><b>📦 Dependencies</b></summary>
   - Guna.UI2.WinForms (version 2.0.4.7)
+  - .NET Framework (4.8)
+  - SQL Server (Express/Developer)
 </details>
 
+---
+
+## 🚀 Getting Started
+### Prerequisites
+- Visual Studio 2022 (Windows Forms)
+- .NET Framework 4.8
+- SQL Server and SQL Server Management Studio
+
+### Installation
+1. Clone the repository and open `Hotel Management.sln` in Visual Studio.
+2. Install NuGet packages:
+   - Guna.UI2.WinForms (v2.0.4.7)
+3. Configure the database connection string:
+   - Update the `App.config` to point to your SQL Server instance/database.
+4. Prepare the database:
+   - Create the database and required tables/stored procedures.
+   - The database script is available, run it in SQL Server (see `Utils/Misc/Scripts` folder).
+5. Set `Hotel Management` as the startup project and run (F5).
+
+---
+
+## 🧰 Tech Stack
+- Windows Forms (.NET Framework)
+- C#
+- SQL Server
+- Guna.UI2.WinForms for modern UI components
+
+---
+
+## 📂 Project Structure
+
+```
+Hotel Management/
+  App.config
+  Database/
+    ConnectionDB.cs
+  Login/
+    LoginForm.cs
+    LoginForm.Designer.cs
+    LoginForm.resx
+  Models/
+    Users.cs
+  Program.cs
+  Properties/
+    Resources.resx
+    Settings.settings
+  Resources/
+    flat-hotel.jpg
+  Utils/
+    Misc/
+      Scripts/
+    CurrentUser.cs
+```
+
+---
+
+## 📷 Screenshots
+Login (UI cleanup in progress):
+
+![Login](https://github.com/user-attachments/assets/f81dd7ed-c21e-4836-85ed-18eadd3f77e2) 
